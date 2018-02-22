@@ -53,6 +53,7 @@ export default class ExpenseForm extends React.Component {
       });
     }
   };
+
   render() {
     return (
       <form className="form" onSubmit={this.onSubmit}>
