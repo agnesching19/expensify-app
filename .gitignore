@@ -2,3 +2,7 @@ node_modules/
 public/dist/
 .env.test
 .env.development
+yarn-error.log
+y
+y.pub
+yarn.lock

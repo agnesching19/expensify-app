@@ -24,6 +24,7 @@ export class ExpenseListFilters extends React.Component {
       this.props.sortByAmount();
     }
   };
+
   render() {
     return (
       <div className="content-container">
