@@ -6,8 +6,8 @@ const NotFoundPage = () => (
     <div className="not-found__404">
       <img className="not-found__image" src="/images/404.png" />
     </div>
-    <div className="not-found__link">
-      <Link to="/">GO BACK TO DASHBOARD</Link>
+    <div className="not-found__back">
+      <Link className="not-found__link" to="/">GO BACK TO DASHBOARD</Link>
     </div>
   </div>
 );

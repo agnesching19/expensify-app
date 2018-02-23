@@ -9,9 +9,20 @@
 
 .not-found__image {
   width: 75rem;
-  margin-top: 20rem;
+  margin-top: 15rem;
 
   @media (max-width: $desktop-breakpoint) {
     width: 30rem;
   }
+}
+
+.not-found__link {
+  text-decoration: none;
+}
+
+.not-found__back {
+  text-align: center;
+  margin-top: 5rem;
+  background: white;
+  border-radius: 3px;
 }
